@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="MiAU.exe: comunidade felina feita para praticar Flexbox." />
+    <title>MiAU.exe | Comunidade Felina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="top-header">
+        <a class="logo" href="#inicio" aria-label="MiAU ponto exe, início">MiAU<span>.exe</span></a>
+        <p class="tagline">um cantinho 8-bit para quem serve gatos</p>
+      </header>
+
+      <nav class="main-menu" aria-label="Menu principal">
+        <a href="#comunidade">Comunidade</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#fofuras">Fofuras</a>
+        <a href="#dicas">Dicas</a>
+        <a href="#memes">Memes</a>
+      </nav>
+
+      <main id="inicio">
+        <section class="hero" aria-labelledby="hero-title">
+          <div>
+            <p class="eyebrow">&gt; boas-vindas, humano_</p>
+            <h1 id="hero-title">A comunidade onde todo bug tem pelo.</h1>
+            <p>Explore fofuras, dicas e fatos curiosos sobre as criaturas que comandam a internet — e provavelmente a sua casa.</p>
+            <a class="pixel-button" href="#fofuras">ver gatinhos ↓</a>
+          </div>
+          <div class="pixel-cat" aria-hidden="true">
+            <div class="cat-ears"></div><div class="cat-face"><i></i><i></i><b></b></div><div class="cat-body"></div>
+          </div>
+        </section>
+
+        <section id="fofuras" class="section-block" aria-labelledby="gallery-title">
+          <div class="section-heading">
+            <p class="eyebrow">desafio_02</p>
+            <h2 id="gallery-title">Galeria de miados</h2>
+          </div>
+          <div class="gallery">
+            <figure><img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=600&q=80" alt="Gato laranja olhando para a câmera" /><figcaption>modo soneca</figcaption></figure>
+            <figure><img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=600&q=80" alt="Gato sentado em um tapete" /><figcaption>patrulha ativa</figcaption></figure>
+            <figure><img src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?auto=format&fit=crop&w=600&q=80" alt="Gato preto com olhos amarelos" /><figcaption>boss secreto</figcaption></figure>
+            <figure><img src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?auto=format&fit=crop&w=600&q=80" alt="Gato branco descansando" /><figcaption>cochilo premium</figcaption></figure>
+            <figure><img src="https://images.unsplash.com/photo-1494256997604-768d1f608cac?auto=format&fit=crop&w=600&q=80" alt="Gato cinza de olhos claros" /><figcaption>olhar crítico</figcaption></figure>
+            <figure><img src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?auto=format&fit=crop&w=600&q=80" alt="Gato deitado em uma cama" /><figcaption>carregando...</figcaption></figure>
+          </div>
+        </section>
+
+        <section id="comunidade" class="section-block" aria-labelledby="profile-title">
+          <div class="section-heading">
+            <p class="eyebrow">desafio_03</p>
+            <h2 id="profile-title">Perfil da semana</h2>
+          </div>
+          <article class="profile-card">
+            <div class="avatar" aria-label="Avatar ilustrado de Lua">=^.^=</div>
+            <div class="profile-copy">
+              <p class="level">LEVEL 09 · RAINHA DO TECLADO</p>
+              <h3>Lua, a depuradora</h3>
+              <p>Especialista em deitar exatamente sobre a tecla que você precisa. Sua linguagem do amor é derrubar objetos da mesa às 3h da manhã.</p>
+              <button type="button" class="pixel-button">enviar carinho ♡</button>
+            </div>
+          </article>
+        </section>
+
+        <section class="section-block page-layout" aria-label="Conteúdo e barra lateral">
+          <article class="content-column">
+            <p class="eyebrow">desafio_04</p>
+            <h2 id="curiosidades">Curiosidade desbloqueada</h2>
+            <div class="info-card">
+              <span class="number">01</span>
+              <div><h3>O ronronar é um superpoder</h3><p>Além de mostrar conforto, o ronronar pode ajudar gatos a se acalmarem e se comunicarem com a gente.</p></div>
+            </div>
+            <div class="info-card">
+              <span class="number">02</span>
+              <div><h3>Bigodes são sensores</h3><p>Eles ajudam o gato a perceber espaços, movimentos e até mudanças sutis no ar. Por isso: nada de cortar!</p></div>
+            </div>
+          </article>
+          <aside class="sidebar" id="dicas">
+            <p class="eyebrow">dica rápida</p>
+            <h2>Kit do gato feliz</h2>
+            <ul>
+              <li>Água fresca sempre</li>
+              <li>Arranhador para afiar as garras</li>
+              <li>Caixa de areia limpinha</li>
+              <li>Brincadeira todos os dias</li>
+            </ul>
+            <a id="memes" class="text-link" href="#inicio">voltar ao topo ↑</a>
+          </aside>
+        </section>
+      </main>
+
+      <footer>© 2026 Laura — feito com flexbox, pixels e muitos miaus.</footer>
+    </div>
+  </body>
+</html>
